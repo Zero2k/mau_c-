@@ -1,0 +1,16 @@
+/home/vibe/Mau/assignment1/Part2/bin/Debug/net5.0/Part2
+/home/vibe/Mau/assignment1/Part2/bin/Debug/net5.0/Part2.deps.json
+/home/vibe/Mau/assignment1/Part2/bin/Debug/net5.0/Part2.runtimeconfig.json
+/home/vibe/Mau/assignment1/Part2/bin/Debug/net5.0/Part2.runtimeconfig.dev.json
+/home/vibe/Mau/assignment1/Part2/bin/Debug/net5.0/Part2.dll
+/home/vibe/Mau/assignment1/Part2/bin/Debug/net5.0/ref/Part2.dll
+/home/vibe/Mau/assignment1/Part2/bin/Debug/net5.0/Part2.pdb
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.csproj.AssemblyReference.cache
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.GeneratedMSBuildEditorConfig.editorconfig
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.AssemblyInfoInputs.cache
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.AssemblyInfo.cs
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.csproj.CoreCompileInputs.cache
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.dll
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/ref/Part2.dll
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.pdb
+/home/vibe/Mau/assignment1/Part2/obj/Debug/net5.0/Part2.genruntimeconfig.cache
