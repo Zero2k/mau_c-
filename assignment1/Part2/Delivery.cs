@@ -17,7 +17,7 @@ class Delivery
 
   private void RequestDelivery()
   {
-    Console.WriteLine("You're about to request a delivery, but we need some information.");
+    Console.WriteLine("You're about to request a delivery, but we need some information about the delivery.");
     Console.WriteLine("Please follow the instructions:\n");
 
     /* Request pick up location */
@@ -32,6 +32,7 @@ class Delivery
     /* Request the package weight */
     PackageWeight();
 
+    /* Display delivery information */
     DeliverySummary();
   }
 
@@ -53,11 +54,13 @@ class Delivery
     /* Ensure the user enter a number */
     try
     {
+      /* Turn the string into a integer */
       phone = int.Parse(Console.ReadLine());
     }
     catch (System.Exception)
     {
       Console.WriteLine("That's not a valid phone number");
+      /* Call the function again to allow the user to enter a valid phone number */
       RecipientPhone();
     }
     
@@ -69,11 +72,13 @@ class Delivery
     /* Ensure the user enter a number */
     try
     {
+      /* Turn the string into a double */
       totalWeight = Convert.ToDouble(Console.ReadLine());
     }
     catch (System.Exception)
     {
       Console.WriteLine("That's not a valid weight");
+      /* Call the function again to allow the user to enter a valid weight */
       PackageWeight();
     }
   }

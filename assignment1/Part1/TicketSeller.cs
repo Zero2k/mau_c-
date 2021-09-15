@@ -30,12 +30,15 @@ class TicketSeller
   private void ReadInput()
   {
     Console.WriteLine("Your name please:\n");
+    /* Get the user's name as string */
     name = Console.ReadLine();
 
     Console.WriteLine("Number of adults:");
+    /* Get the amount of adults as int */
     numOfAdults = ReadInputAsInt();
     
     Console.WriteLine("Number of children:");
+    /* Get the amount of children as int */
     numOfChildren = ReadInputAsInt();
   }
 
@@ -43,8 +46,10 @@ class TicketSeller
   {
     double amountAdults = numOfAdults * price;
     double amountChildren = numOfChildren * (price * 0.25);
+    /* Calculate total amount to pay */
     amountToPay = amountAdults + amountChildren;
 
+    /* Return amount to pay with two decimals */
     return Math.Round(amountToPay, 2);
   }
 

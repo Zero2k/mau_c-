@@ -17,7 +17,7 @@ class Album
   {
     string input = Console.ReadLine();
     /* Convert string to int and return it */
-    int intInput = Int16.Parse(input);
+    int intInput = int.Parse(input);
 
     return intInput;
   }

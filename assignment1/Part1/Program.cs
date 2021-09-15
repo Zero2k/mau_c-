@@ -26,6 +26,7 @@ namespace Part1
             Album album = new Album();
             album.Start();
 
+            /* Exit the program */
             Console.WriteLine("\nPress Enter to exit");
             Console.ReadLine();
         }
