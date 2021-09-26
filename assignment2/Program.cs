@@ -13,7 +13,7 @@ namespace assignment2
             Console.ReadLine();
 
             Console.Title = "Fahrenheit and Ceslsius Converter";
-            /* TemperatureConverter converter = new TemperatureConverter(); */
+            TemperatureConverter converter = new TemperatureConverter();
 
             Console.WriteLine("Press any key to exit!");
             Console.ReadLine();
